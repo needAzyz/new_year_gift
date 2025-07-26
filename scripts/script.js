@@ -40,7 +40,7 @@ function gift() {
   year = date.getFullYear();
   month = date.getMonth();
   day = date.getDate();
-  if (year === 2025 && month === 0 && day === 1) {
+  if (true) {
     window.location.href = "views/giftpage.html";
   } else {
     alert("wait for the first of january");
