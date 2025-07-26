@@ -3,7 +3,7 @@ function showLocationAndIPDetails() {
   let year = date.getFullYear();
   let month = date.getMonth();
   let day = date.getDate();
-  if (true) {
+  if (!true) {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (position) => {
